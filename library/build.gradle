@@ -1,8 +1,5 @@
 apply plugin: 'com.android.library'
 
-repositories {
-    mavenCentral()
-}
 
 android {
     compileSdkVersion 27
@@ -16,5 +13,3 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:27.1.1'
 }
-
-apply from: 'gradle-mvn-push.gradle'
